@@ -18,9 +18,11 @@ function randomGenerator(options){
 
 let result0 = randomGenerator(randDestination);
 console.log('For your first destination we choose...' + (result0));
-let anwser0 = confirm('Is this okay with you?')
+let anwser0 = confirm('Is this okay with you?');
+
+let result01 = randomGenerator2(randDestination);
 if (anwser0 == false){
-    console.log('Sorry about that, how about... ' + result0);
+    console.log('Sorry about that, how about... ' + result01);
 } 
 else{
     console.log('Lets continue! ')
@@ -32,13 +34,14 @@ alert(userName + ' now lets choose a Resturant to eat!');
 let result1 = randomGenerator(randResturant);
 console.log('For your Resturant we choose...' + (result1));
 let anwser1 = confirm('Is this okay with you?')
+
+let result02 = randomGenerator2(randDestination);
 if (anwser1 == false){
-    console.log('Sorry about that, how about... ' + result1);
+    console.log('Sorry about that, how about... ' + result02);
 } 
 else{
     console.log('Lets continue! ')
 };
-
 
 alert('Sweeeet! Next lets choose your form of transportation!');
 
