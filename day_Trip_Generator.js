@@ -1,3 +1,6 @@
+let userName = prompt('What is your name? ');
+console.log('Hello ' + userName + ' This is your day trip generator!');
+
 let randDestination = ['Milwaukee', 'Madison', 'Wisconsin Dells', 'Lake Geneva'];
 let randResturant = ['Culvers', 'Kopps', 'Olive Garden', 'Texas Roadhouse'];
 let randModeOfTransport = ['Uber', 'Lyft', 'Public Bus', 'Bycicle'];
@@ -12,8 +15,14 @@ function randomGenerator(options){
  }
 
  let result0 = randomGenerator(randDestination);
- let result1 = randomGenerator(randResturant);
- let result2 = randomGenerator(randResturant);
- let result3 = randomGenerator(randResturant);
+//  let result1 = randomGenerator(randResturant);
+//  let result2 = randomGenerator(randResturant);
+//  let result3 = randomGenerator(randResturant);
 
- console.log(result);
+console.log('For your first destination we choose......' + (result0));
+
+
+//  console.log(result0);
+//  console.log(result1);
+//  console.log(result2);
+//  console.log(result3);
